@@ -111,7 +111,7 @@ button,input,select,textarea{font:inherit}
 .story-image,.comfort-image{position:relative}
 .story-image picture{display:block}
 .story-image img,.comfort-image img{aspect-ratio:1.1;object-fit:cover;border-radius:8px;box-shadow:var(--shadow)}
-.story-image img{aspect-ratio:4/3;object-position:left center}
+.story-image img{aspect-ratio:auto;object-fit:initial}
 .image-label,.temp-card{position:absolute;right:-22px;bottom:28px;padding:18px 20px;color:var(--green);background:var(--gold);box-shadow:var(--shadow-strong);border-radius:8px}
 .image-label strong,.image-label span,.temp-card small,.temp-card strong,.temp-card span{display:block}
 .image-label strong{font-size:18px;line-height:1.2}
@@ -230,7 +230,7 @@ button,input,select,textarea{font:inherit}
   .service-grid,.reviews-grid,.form-row,.footer-grid{grid-template-columns:1fr}
   .service-card{min-height:210px}
   .story-section{padding:86px 0}
-  .story-image img{aspect-ratio:4/5;object-position:center center}
+  .story-image img{aspect-ratio:auto;object-position:center center}
   .image-label{right:12px;bottom:14px}
   .image-label strong{font-size:16px}
   .estimate-inner p,.story-copy p,.maintenance-grid p,.area-grid p,.faq-grid p,.contact-copy p{font-size:16px}
