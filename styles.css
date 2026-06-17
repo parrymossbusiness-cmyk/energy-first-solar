@@ -110,6 +110,7 @@ button,input,select,textarea{font:inherit}
 .story-grid,.maintenance-grid,.area-grid,.contact-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}
 .story-image,.comfort-image{position:relative}
 .story-image img,.comfort-image img{aspect-ratio:1.1;object-fit:cover;border-radius:8px;box-shadow:var(--shadow)}
+.story-image img{aspect-ratio:4/3;object-fit:contain;background:#dce6df}
 .image-label,.temp-card{position:absolute;right:-22px;bottom:28px;padding:18px 20px;color:var(--green);background:var(--gold);box-shadow:var(--shadow-strong);border-radius:8px}
 .image-label strong,.image-label span,.temp-card small,.temp-card strong,.temp-card span{display:block}
 .image-label strong{font-size:18px;line-height:1.2}
